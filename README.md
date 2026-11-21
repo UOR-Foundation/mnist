@@ -1,4 +1,15 @@
+![mnist: illustrative local Foundation PNG placeholder, pending project artwork](assets/readme-banner-PLACEHOLDER.png)
+
+*Placeholder artwork pending UOR Foundation brand approval.*
+
 # MNIST
+
+**A LexLean model of a quantized MNIST classifier, with proof and artifact boundaries that can be audited.** Its source model and generated packages should be evaluated against the recorded verification evidence rather than assumed correct from their existence.
+
+[Model definition](#the-model) · [Evidence and measurements](#what-is-established-and-what-is-measured) · [Product artifacts](#the-product) · [Repository layout](#layout) · [Acceptance gates](#gates) · [Verification](VERIFICATION.md)
+
+[![Model workflow](https://github.com/UOR-Foundation/mnist/actions/workflows/model.yml/badge.svg?branch=main)](https://github.com/UOR-Foundation/mnist/actions/workflows/model.yml) [![MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-718096)](LICENSE-MIT)
+
 
 The ONNX Model Zoo's int8 MNIST network as one LexLean model: its parameters
 are content-addressed artifacts, its network is a language-1.2 graph, its
